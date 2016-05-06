@@ -1,0 +1,41 @@
+body{
+	background-color: #F4D6AE;
+}
+
+.main-body{
+	width: 90%;
+	margin: 0px auto;
+}
+
+.project-box{
+	border: 2px solid black;
+	margin-bottom: 25px;
+	padding: 2%;
+}
+
+#twitter-feed{
+	background-color: #E3C59D;
+	border-radius: 10px;
+}
+
+ul.about li{
+	font-style: italic;
+	list-style-type: disc;
+}
+
+div.project-box h5{
+	margin: 0px;
+	font-weight: bold;
+}
+
+code.strong{
+	font-weight: bold;
+}
+
+p.techs{
+	font-style: italic;
+}
+
+p.small-text{
+	font-size: 0.9em;
+}
