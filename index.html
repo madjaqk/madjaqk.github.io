@@ -25,6 +25,16 @@
 					<p>I'm a software developer with a Python emphasis and the ability to thrive in fast-paced environments.  A former instructor at an immersive bootcamp with a proven record of mastering new technologies in a tight time-frame, I possess an analytic mind that is always striving to understand why something works the way it does and how it can be improved.</p>
 					<h4>Projects</h4>
 					<div class="project-box">
+						<h5><a href="http://assets.enthought.com">Enthought Assets Server</a></h5>
+						<p>A Django app to make Enthought installers and documentation accessible to users with the correct permissions.  Under the hood, it interacts with a Keycloak server for user authentication and was built using Docker containers to automate deployment.</p>
+						<p class="techs">Technologies used: Python, Django, AWS/boto3, Keycloak, Docker Stack, PostgreSQL, HTML5, CSS3</p>
+					</div>
+					<div class="project-box">
+						<h5><a href="http://cryptics.jackbrounstein.com">Cryptic Contests</a></h5>
+						<p>A website for running contests for writing <a href="https://en.wikipedia.org/wiki/Cryptic_crossword">cryptic crossword</a> clues, used by my friends in the puzzle community.  It uses Celery and RabbitMQ to automatically close contests after a certain amount of time as well as webhooks to push contest notifications to Discord.</p>
+						<p class="techs">Technologies used: Python, Django, RabbitMQ/Celery, OAuth, PostgreSQL, HTML5, CSS3</p>
+					</div>
+					<div class="project-box">
 						<h5><a href="http://puzzles.jackbrounstein.com">Puzzle Master</a></h5>
 						<p>A Django app to host metapuzzles online, with social log-in, answer tracking and validation and a PostgreSQL database, as well as a set of example puzzles inspired by (but significantly easier than) the MIT Mystery Hunt.</p>
 						<p class="techs">Technologies used: Python, Django, OAuth, PostgreSQL, HTML5, CSS3</p>
@@ -33,12 +43,6 @@
 						<h5><a href="http://tiles.jackbrounstein.com">Tile Game</a></h5>
 						<p>A web game that that involves rearranging letters to form words.  It's fun!  The game uses the SOWPODS word list (the same as international Scrabble), converted into a JSON listing all legal words and their scores.  That process was done using a combination of terminal commands (mostly <code>grep</code> and <code>comm</code>) and a simple Python script.</p>
 						<p class="techs">Technologies used: Angular.js, Express, Node.js, jQuery UI, HTML5, CSS3</p>
-					</div>
-					<div class="project-box">
-						<h5><a href="http://online-lending.jackbrounstein.com">Online Lending</a></h5>
-						<p>Framework for a web app that allows users to either request loans or lend money to other users. Created database schema along with intricate controllers and models for fully functional app within 3 hours for the Ruby on Rails belt exam.</p>
-						<p class="techs">Technologies used: Ruby, Rails, PostgreSQL, Twitter Bootstrap, HTML5, CSS3</p>
-						<p class="small-text">(Need guest credentials?  Try user <code class="strong">foo@bar.baz</code>, password <code class="strong">foobarbaz</code> for the lender side or user <code class="strong">fake@test.com</code>, password <code class="strong">password</code> for the borrower side)</p>
 					</div>
 					<div class="project-box">
 						<h5><a href="/Set/">Set</a></h5>
