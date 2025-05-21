@@ -1,3 +1,19 @@
+.merriweather-body{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.ultra-regular{
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body{
 	background-color: #F4D6AE;
 }
@@ -11,11 +27,6 @@ body{
 	border: 2px solid black;
 	margin-bottom: 25px;
 	padding: 2%;
-}
-
-#twitter-feed{
-	background-color: #E3C59D;
-	border-radius: 10px;
 }
 
 ul.about li{
